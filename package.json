@@ -1,0 +1,26 @@
+{
+    "name": "submission",
+    "version": "1.2.0",
+    "description": "Tugas akhir dicoding Backend",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "start-dev": "nodemon src/server.js"
+    },
+    "keywords": [],
+    "author": "Pahrul Irfan",
+    "license": "ISC",
+    "dependencies": {
+        "@hapi/hapi": "^20.1.5",
+        "nanoid": "^3.1.23",
+        "nanoid-dictionary": "^4.3.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.31.0",
+        "eslint-config-standard": "^16.0.3",
+        "eslint-plugin-import": "^2.23.4",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^5.1.0",
+        "nodemon": "^2.0.12"
+    }
+}
